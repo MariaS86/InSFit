@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 90%;
+}
+
+.content {
+    padding-bottom: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background: #0000FF;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+/* .logo img {
+    margin-left: -2.3em;
+    max-width: 100%;
+} */
+.logo a {
+margin-left: -90%;
+
+}
+.header_menu ul {
+    list-style-type: none;
+}
+.header_menu ul{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.header_menu ul li a {
+
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+.header_menu ul li a:hover {
+    background: #081472;
+    color: #fff;
+    transition: .5s
+}
+
+.content{
+text-align: center;
+}
+
+/* дизайн подвала сайта*/
+.footer {
+    position: relative;
+    
+    bottom: 0; /* Левый нижний угол */
+    background: #0000FF;
+    color: #fff;
+    font-size: 100%;
+}
+.footer p {
+    margin: 1% 0;
+}
+.footer .foot_contacts {
+padding: 0.5% 0px 2% 5%;
+  font-size: 15px;
+  text-align: left;
+}
+.footer .foot_logo {
+  padding: 0 5% 0 0;
+  font-size: 15px;
+  text-align: right;
+  margin-top: -4%;
+}
+.footer .copyright {
+  padding: 15px 0;
+  background: #000080;
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
