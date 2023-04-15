@@ -1,0 +1,67 @@
+/*шапка*/
+.header{
+
+	background: #035aa6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.header_body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+
+}
+.header_logo{
+    flex: 0 0 230px;
+    position: relative;
+    left: 2%;
+    z-index: 3;
+
+}
+.header_logo img{
+    max-width: 100%;
+    display: block;
+
+}
+.header_menu{
+	right: 4%;
+    position: relative;
+
+
+}
+.header_list{
+	flex: 0 0 250px;
+	margin-top: 0%;
+    z-index: 2;
+}
+.header_list li{
+
+    list-style: none;
+    margin: 0 0 0 20px;
+}
+li :hover{
+    background: #081472;
+    color: #fff;
+    transition: .5s
+}
+.header_link{
+    color: #AA47F9;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header_menu ul li a {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+li{
+display: inline;
+left: 40%;
+}

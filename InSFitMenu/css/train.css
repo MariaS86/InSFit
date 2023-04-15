@@ -1,0 +1,125 @@
+
+			#menu7, #menu7 li {
+				margin: 0;
+				padding: 0;
+			}
+			#menu7 {
+				text-align: center;
+			}
+			#menu7 li{
+				display:inline-block;
+				text-align: center;
+				width: 20%;
+				-webkit-transform: skewX(-45deg); /* Трансформация Для Safari и Chrome */
+				-moz-transform: skewX(-45deg); /* Трансформация Для Firefox */
+				-o-transform: skewX(-45deg); /* ТрансформацияДля Opera */
+				-ms-transform: skewX(-45deg); /* Трансформация Для IE */
+				transform: skewX(-45deg); /* Трансформация */
+				background: #4682B4;
+			}
+			#menu7 li a {
+				display: block;
+				padding: 5px 15px;
+				color: #fff;
+				font-size:150%;
+				text-decoration: none;
+				margin-left : 5px;
+				-webkit-transform: skewX(45deg); /* Трансформация Для Safari и Chrome */
+				-moz-transform: skewX(45deg); /* Трансформация Для Firefox */
+				-o-transform: skewX(45deg); /* Трансформация Для Opera */
+				-ms-transform: skewX(45deg); /* Трансформация Для IE */
+				transform: skewX(45deg); /* Трансформация CSS3 */
+			}
+			#menu7 a:hover {
+				-webkit-transform: skewX(45deg); /* Трансформация Для Safari и Chrome */
+				-moz-transform: skewX(45deg); /* Трансформация Для Firefox */
+				-o-transform: skewX(45deg); /* Трансформация Для Opera */
+				-ms-transform: skewX(45deg); /* Трансформация Для IE */
+				transform: skewX(45deg); /* Трансформация CSS3 */
+			}
+			#menu7 li:hover {
+				background: #8AB8CC;
+				-webkit-transform: skewX(-45deg); /* Трансформация Для Safari и Chrome */
+				-moz-transform: skewX(-45deg); /* Трансформация Для Firefox */
+				-o-transform: skewX(-45deg); /* Трансформация Для Opera */
+				-ms-transform: skewX(-45deg); /* Трансформация Для IE */
+				transform: skewX(-45deg); /* Трансформация CSS3 */
+			}
+            .submenu a{
+                text-decoration: none;
+            }
+            .submenu h1:hover{
+                color: #8AB8CC;
+            }
+            .submenu h1{
+                text-align: center;
+                font-size: 1.5em;
+                color:#4682B4;
+            }
+            .categorydone h1{
+                margin-top: 5%;
+            text-align: center;
+            font-size: 1.5em;
+            color:#4682B4;
+            }
+            .macmenu {
+         height: 90%; /*высота общего блока*/
+         width: 100%;
+        }
+
+        .button {
+
+            border-radius: 20px;
+            position: absolute;
+            top: 55%;
+            /* left: 40%; */
+            margin-right: -50%;
+            transform: translate(3.5%, -50%);
+
+         width: 100%; /*ширина всего блока с меню*/
+        }
+
+        .button a {
+            background-size: cover;
+            margin-top: 15%;
+
+                box-shadow: 12px 12px 9px 1px rgba(135, 155,210, 0.35);
+         display: block;
+         float: left;
+         -webkit-transition: all 0.5s ease;
+         -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+         height: 250px;
+         width: 250px;
+         border-radius:10px;
+        }
+        .but h5{
+            /* background-color: #fff; */
+            font-size: 100%;
+            margin-top: -20%;
+            /* color: #0942ad; */
+            color: #fff;
+        }
+        .button a {
+         margin: 0px 5%;
+         text-align: center;
+         font-size: 1.4em;
+         font: normal normal  ;
+         text-decoration: none;
+         word-wrap: normal; /*запрещает автоматически разрывать слова на перенос*/
+        }
+        .macmenu .but :hover  {
+         height: 300px;
+         width: 300px;
+         border-radius:10px;
+        }
+        .button .but h5 :hover {
+            font-size: 2em;
+         font: normal bold ;
+        }
+
+        /* онлайн тренировки */
+        .onl h1{
+            text-align: center;
+        }
