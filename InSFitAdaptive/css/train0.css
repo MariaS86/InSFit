@@ -1,0 +1,546 @@
+html,body{
+    height:75vh;
+    margin:0;
+}
+/* Меню на страницах категории, онлайн тренировки */
+#menu7, #menu7 li {
+    margin: 0;
+    padding: 0;
+}
+#menu7 {
+    text-align: center;
+}
+#menu7 li{
+    display:inline-block;
+    text-align: center;
+    width: 20%;
+    -webkit-transform: skewX(-45deg); /* Трансформация Для Safari и Chrome */
+    -moz-transform: skewX(-45deg); /* Трансформация Для Firefox */
+    -o-transform: skewX(-45deg); /* ТрансформацияДля Opera */
+    -ms-transform: skewX(-45deg); /* Трансформация Для IE */
+    transform: skewX(-45deg); /* Трансформация */
+    background: #4682B4;
+}
+#menu7 li a {
+    display: block;
+    padding: 5px 15px;
+    color: #fff;
+    font-size:150%;
+    text-decoration: none;
+    margin-left : 5px;
+    -webkit-transform: skewX(45deg); /* Трансформация Для Safari и Chrome */
+    -moz-transform: skewX(45deg); /* Трансформация Для Firefox */
+    -o-transform: skewX(45deg); /* Трансформация Для Opera */
+    -ms-transform: skewX(45deg); /* Трансформация Для IE */
+    transform: skewX(45deg); /* Трансформация CSS3 */
+}
+#menu7 a:hover {
+    -webkit-transform: skewX(45deg); /* Трансформация Для Safari и Chrome */
+    -moz-transform: skewX(45deg); /* Трансформация Для Firefox */
+    -o-transform: skewX(45deg); /* Трансформация Для Opera */
+    -ms-transform: skewX(45deg); /* Трансформация Для IE */
+    transform: skewX(45deg); /* Трансформация CSS3 */
+}
+#menu7 li:hover {
+    background: #8AB8CC;
+    -webkit-transform: skewX(-45deg); /* Трансформация Для Safari и Chrome */
+    -moz-transform: skewX(-45deg); /* Трансформация Для Firefox */
+    -o-transform: skewX(-45deg); /* Трансформация Для Opera */
+    -ms-transform: skewX(-45deg); /* Трансформация Для IE */
+    transform: skewX(-45deg); /* Трансформация CSS3 */
+}
+.submenu a{
+    text-decoration: none;
+}
+.submenu h1:hover{
+    color: #8AB8CC;
+}
+.submenu h1{
+    text-align: center;
+    font-size: 1.5em;
+    color:#4682B4;
+}
+.categorydone h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5em;
+    color:#4682B4;
+}
+.categ {
+    margin-top: -15%;
+    text-align: center;
+    font-size: 1.5em;
+    color:#035aa6;
+}
+/* страница тренировок */
+.work{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    color:#035aa6;
+}
+.ex{
+    margin-top: 5%;
+    text-align: left;
+    font-size: 0.8em;
+    color:#0368a6;
+}
+.names{
+    border-radius: 20px;
+    position: relative;
+    left: 40%;
+    margin-top: 2%;
+    width: 50%;
+    color:#0368a6;
+    font-size: 0.65em;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+    0px -5px 35px rgba(255,255,255,0.3);
+}
+.names h1{
+
+    font-weight: 600;
+}
+.techniq{
+    border-radius: 20px;
+    position: relative;
+    left: 20%;
+    width: 62%;
+    color:#0368a6;
+    font-size: 0.6em;
+    font-weight: 100;
+}
+.techniq h1{
+    font-weight: 300;
+}
+.video{
+    border-radius: 20px;
+    position: relative;
+    left: 32.5%;
+    width: 660px;
+    height: 415px;
+}
+.video1{
+    border-radius: 20px;
+    position: relative;
+    left: 33%;
+    width: 660px;
+    height: 415px;
+}
+
+iframe {
+
+    width: 100%;
+    height: 100%;
+}
+}
+@media (max-height: 950px) {
+  .but, .but1 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-height: 850px) {
+  .but, .but1 {
+    padding-top: 150px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-height: 750px) {
+  .but, .but1 {
+    padding-top: 230px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-height:550px) {
+  .but, .but1 {
+    padding-top: 320px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-height:350px) {
+  .but, .but1 {
+    padding-top: 400px;
+    padding-bottom: 10px;
+  }
+}
+/*Адаптивная верстка*/
+@media (min-width:400px) and (max-width:800px) {
+    .work{
+        font-size: 1.1em;
+    }
+    .video {
+        left: 22%;
+        width: 60%;
+        height: 40%;
+    }
+    .video1 {
+        left: 22%;
+        width: 60%;
+        height: 40%;
+    }
+    .techniq {
+        left: 22%;
+        width: 60%;
+        font-size: 0.5em;
+    }
+    .techniq h1{
+        font-weight: 100;
+
+    }
+    .names{
+        left: 20%;
+        width: 50%;
+        font-size: 0.6em;
+    }
+
+
+}
+
+@media (min-width:300px) and (max-width:600px) {
+
+    .but, .but1 {
+        left: 19.5%;
+        position: absolute;
+        top: -400px;
+        width: 60%;
+        height: 40%;
+    }
+    #menu7{
+        width: 100%;
+        font-size: 9px;
+    }
+}
+
+@media (min-width:600px) and (max-width:700px) {
+
+    .but, .but1 {
+        left: 22.5%;
+        position: absolute;
+        top: -400px;
+        width: 60%;
+        height: 40%;
+    }
+    #menu7{
+        width: 100%;
+        font-size: 10px;
+    }
+}
+@media (min-width:700px) and (max-width:800px) {
+
+    .but, .but1 {
+        left: 25.5%;
+        position: absolute;
+        top: -380px;
+        width: 60%;
+        height: 40%;
+    }
+    #menu7{
+        width: 100%;
+        font-size: 11px;
+    }
+}
+@media (min-width:800px) and (max-width:1000px) {
+    .video {
+        left: 20%;
+        width: 60%;
+        height: 50%;
+    }
+    .video1 {
+        left: 20%;
+        width: 60%;
+        height: 50%;
+    }
+    .techniq {
+        left: 22%;
+        width: 60%;
+        font-size: 0.6em;
+    }
+    .techniq h1{
+        font-weight: 100;
+
+    }
+    .names{
+        left: 22%;
+        width: 50%;
+        font-size: 0.6em;
+    }
+
+
+}
+@media (min-width:1000px) and (max-width:1500px) {
+    .video {
+        left: 22%;
+        width: 60%;
+        height: 50%;
+    }
+    .video1 {
+        left: 22%;
+        width: 60%;
+        height: 50%;
+    }
+    .techniq {
+        left: 22%;
+        width: 60%;
+        font-size: 0.6em;
+    }
+    .techniq h1{
+        font-weight: 100;
+
+    }
+    .names{
+        left: 22%;
+        width: 50%;
+        font-size: 0.6em;
+    }
+
+
+}
+@media (min-width:800px) and (max-width:900px) {
+
+    .but,.but1 {
+        left: 7.5%;
+        position: absolute;
+        top: -350px;
+        width: 90%;
+        height: 40%;
+    }
+    #menu7{
+        width: 100%;
+        font-size: 13px;
+    }
+}
+@media (min-width:900px) and (max-width:1000px) {
+
+    .but, .but1 {
+        left: 10.5%;
+        position: absolute;
+        top: -350px;
+        width: 90%;
+        height: 40%;
+    }
+    #menu7{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1100px) {
+
+    .but, .but1 {
+        left: 16%;
+        position: absolute;
+        top: -350px;
+        width: 80%;
+        height: 40%;
+    }
+}
+@media (min-width:1000px) and (max-width:1200px) {
+    .video {
+        left: 25%;
+    }
+    .video1 {
+        left: 25%;
+    }
+
+}
+@media (min-width:1100px) and (max-width:1200px) {
+
+    .but, .but1 {
+        left: 16%;
+        position: absolute;
+        top: -350px;
+        width: 80%;
+        height: 40%;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1300px) {
+
+    .but, .but1 {
+        left: 2%;
+        position: absolute;
+        top: -350px;
+        width: 100%;
+        height: 40%;
+    }
+}
+@media (min-width:1300px) and (max-width:1500px) {
+
+    .but, .but1 {
+        left: 5.5%;
+        position: absolute;
+        top: -350px;
+        width: 100%;
+        height: 40%;
+    }
+}
+@media (min-width:1600px) and (max-width:1700px) {
+
+    .but, .but1 {
+        left: 7%;
+        position: absolute;
+        top: -350px;
+        width: 100%;
+        height: 40%;
+    }
+}
+@media (min-width:1500px) and (max-width:1600px) {
+
+    .but, .but1 {
+        left: 7.5%;
+        position: absolute;
+        top: -350px;
+        width: 100%;
+        height: 40%;
+    }
+}
+@media (min-width:1700px) and (max-width:1900px) {
+
+    .but, .but1 {
+        left: 11.5%;
+        position: absolute;
+        top: -350px;
+        width: 100%;
+        height: 40%;
+    }
+}
+
+
+
+
+
+.macmenu {
+    height: 60%; /*высота общего блока*/
+    width: 100%;
+    top: 63%;
+}
+/* Страница с категориями - БЛОКИ    */
+.button {
+
+    border-radius: 20px;
+    position: absolute;
+    top: 63%;
+    left: 6%;
+    margin-right: -50%;
+    transform: translate(0%, -50%);
+
+    width: 90%; /*ширина всего блока с меню*/
+}
+
+.button a {
+
+    background-size: cover;
+    margin-top: 15%;
+
+    box-shadow: 12px 12px 9px 1px rgba(135, 155,210, 0.35);
+    display: block;
+    float: left;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    height: 250px;
+    width: 250px;
+    border-radius:10px;
+}
+
+.but h5{
+    /* background-color: #fff; */
+    font-size: 100%;
+    margin-top: -20%;
+    /* color: #0942ad; */
+    color: #000;
+    background: #fff;
+    opacity: 0.9;
+}
+.but h5:hover{
+
+    background: #fff;
+    opacity: 0.9;
+}
+.but span {
+    /* background: #fff;
+    opacity: 0.9; */
+
+
+}
+
+.button a {
+    margin: 3% 5%;
+    text-align: center;
+    font-size: 1.4em;
+    font: normal normal  ;
+    text-decoration: none;
+    word-wrap: normal; /*запрещает автоматически разрывать слова на перенос*/
+}
+
+
+/* Страница с тренировками - БЛОКИ    */
+.button1 {
+
+    border-radius: 20px;
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    margin-right: -50%;
+    transform: translate(0%, -50%);
+
+    width: 90%; /*ширина всего блока с меню*/
+}
+
+.button1 a {
+
+    background-size: cover;
+    margin-top: 15%;
+
+    box-shadow: 12px 12px 9px 1px rgba(135, 155,210, 0.35);
+    display: block;
+    float: left;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    height: 250px;
+    width: 250px;
+    border-radius:10px;
+}
+
+.but1 h5{
+    /* background-color: #fff; */
+    font-size: 100%;
+    margin-top: -20%;
+    /* color: #0942ad; */
+    color: #000;
+    background: #fff;
+    opacity: 0.9;
+}
+.but1 h5:hover{
+
+    background: #fff;
+    opacity: 0.9;
+}
+.but1 span {
+    /* background: #fff;
+    opacity: 0.9; */
+
+
+}
+/* .button .but span :hover {
+font-size: 2em;
+font: normal bold ;
+} */
+.button1 a {
+    margin: 3% 5%;
+    text-align: center;
+    font-size: 1.4em;
+    font: normal normal  ;
+    text-decoration: none;
+    word-wrap: normal; /*запрещает автоматически разрывать слова на перенос*/
+}
+/* онлайн тренировки */
+.onl h1{
+    text-align: center;
+}
