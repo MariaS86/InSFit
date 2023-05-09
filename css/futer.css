@@ -1,0 +1,105 @@
+
+/* дизайн подвала сайта*/
+
+.footer .knopka{
+    width:50px;
+    height:50px;
+    border: #035aa6 8px dashed;
+    margin:-3 auto;
+    margin: 0% 49%;
+
+}
+.footer .knopka:hover{
+    width:50px;
+    height:50px;
+    border: #035aa6 8px dashed;
+}
+.footer {
+    position: fixed;
+      left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    transition: all 2s ease;
+
+}
+.footer1 {
+height: 4.5em;
+    background: #035aa6;
+    color: #fff;
+    font-size: 100%;
+}
+.footer:hover {
+    transition: all 2s ease;
+    height: 11em;
+}
+  .footer p {
+    margin: 1% 0;
+}
+.footer .foot_contacts {
+padding: 0.5% 0px 2% 5%;
+  font-size: 15px;
+  text-align: left;
+}
+.footer .foot_logo {
+  padding: 0 5% 0 0;
+  font-size: 15px;
+  text-align: right;
+  margin-top: -4%;
+}
+.footer .copyright {
+    color: #fff;
+  padding: 15px 0;
+  background: #03178c;
+  margin-top: 0px;
+  font-size: 15px;
+  text-align: center;
+}
+@media (min-width:1000px) and (max-width:1200px) {
+
+
+}
+@media (min-width:800px) and (max-width:1000px) {
+    .footer .foot_contacts{
+        width: 30%;
+    }
+}
+
+@media (min-width:700px) and (max-width:800px) {
+    .foot_contacts{
+        top: -20px;
+        width: 40%;
+    }
+    .footer1 {
+    height: 4.5em;
+    }
+    .footer:hover {
+        transition: all 2s ease;
+        height: 11em;
+    }
+    .foot_logo{
+        position: relative;
+         top: -22px;
+        left: 50%;
+        width: 45%;
+    }
+}
+@media (min-width:400px) and (max-width:700px) {
+    .foot_contacts{
+        width: 40%;
+    }
+    .footer1 {
+    height: 5.5em;
+    }
+    .footer:hover {
+        transition: all 2s ease;
+        height: 12em;
+    }
+    .foot_logo{
+        position: relative;
+         top: -25px;
+        left: 50%;
+        width: 45%;
+    }
+}
